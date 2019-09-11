@@ -2,3 +2,84 @@
 	box-sizing: border-box;
 	font-family: 'Merriweather', sans-serif;
 }
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #ffd378;
+}
+
+h1{
+	margin: 0;
+	padding: 0;
+}
+
+.homeheader{
+	background-color: #ce7b5b;
+	text-align: center;
+	padding: 5px;
+}
+
+nav{
+	text-align: center;
+}
+
+li{
+	display: inline-block;
+	margin: 10px 20px 	;
+	transition: width 0.5s, height 0.5s;
+}
+
+li:hover{
+	transform: scale(1.1);
+}
+
+li a{
+	color:white;
+}
+
+.homebody{
+	background-color: #424c6d;
+}
+
+.footer{
+   width: 100%;
+   background-color: #424c6d;
+   color: white;
+   text-align: center;
+}
+
+.footer img{
+	transition: width 0.5s, height 0.5s;
+}
+
+.footer img:hover{
+	transform: scale(1.1);
+}
+
+.storybody{
+	background-color: #c9be78;
+	padding-left: 120px;
+	padding-right: 400px;
+}
+
+button{
+	border:none; 
+	margin: 0px 20px;
+	font-weight: bold; 
+	transition: width 1.5s, height 1.5s;
+}
+
+button:hover{
+	transform: scale(1.1);
+}
+
+p{
+	line-height: 35px;
+}
+
+.contactmebody{
+	background-color: #c9be78;
+	padding-left: 120px;
+	padding-right: 400px;
+}

@@ -140,3 +140,7 @@ p{
     grid-row-start: 6;
     grid-row-end: 10;
 }
+
+button a{
+	color: black;
+}
